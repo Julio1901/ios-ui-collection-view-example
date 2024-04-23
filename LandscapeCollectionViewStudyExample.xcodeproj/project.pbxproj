@@ -20,6 +20,7 @@
 		F474A4142BD765C000B3AC01 /* VerticalLandscapeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F474A4132BD765C000B3AC01 /* VerticalLandscapeViewController.swift */; };
 		F474A4172BD778BA00B3AC01 /* LandscapeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F474A4162BD778BA00B3AC01 /* LandscapeModel.swift */; };
 		F474A4192BD7792500B3AC01 /* LandscapeDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = F474A4182BD7792500B3AC01 /* LandscapeDTO.swift */; };
+		F474A41D2BD78BFC00B3AC01 /* LandscapeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F474A41C2BD78BFC00B3AC01 /* LandscapeCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		F474A4132BD765C000B3AC01 /* VerticalLandscapeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalLandscapeViewController.swift; sourceTree = "<group>"; };
 		F474A4162BD778BA00B3AC01 /* LandscapeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandscapeModel.swift; sourceTree = "<group>"; };
 		F474A4182BD7792500B3AC01 /* LandscapeDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandscapeDTO.swift; sourceTree = "<group>"; };
+		F474A41C2BD78BFC00B3AC01 /* LandscapeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandscapeCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				F474A3E12BD761A800B3AC01 /* AppDelegate.swift */,
 				F474A3E32BD761A800B3AC01 /* SceneDelegate.swift */,
 				F474A4132BD765C000B3AC01 /* VerticalLandscapeViewController.swift */,
+				F474A41C2BD78BFC00B3AC01 /* LandscapeCollectionViewCell.swift */,
 				F474A3E52BD761A800B3AC01 /* ViewController.swift */,
 				F474A3E72BD761A800B3AC01 /* Main.storyboard */,
 				F474A4112BD763A800B3AC01 /* VerticalLandscape.storyboard */,
@@ -281,6 +284,7 @@
 			files = (
 				F474A4142BD765C000B3AC01 /* VerticalLandscapeViewController.swift in Sources */,
 				F474A4192BD7792500B3AC01 /* LandscapeDTO.swift in Sources */,
+				F474A41D2BD78BFC00B3AC01 /* LandscapeCollectionViewCell.swift in Sources */,
 				F474A3E62BD761A800B3AC01 /* ViewController.swift in Sources */,
 				F474A3E22BD761A800B3AC01 /* AppDelegate.swift in Sources */,
 				F474A3E42BD761A800B3AC01 /* SceneDelegate.swift in Sources */,

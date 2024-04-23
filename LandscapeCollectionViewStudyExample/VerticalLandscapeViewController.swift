@@ -9,9 +9,6 @@ import UIKit
 
 class VerticalLandscapeViewController: UIViewController, UICollectionViewDataSource {
     
-    struct CollectionViewTags {
-        static let CELL_IMAGE = 100
-    }
     
     @IBOutlet weak var collectionView: UICollectionView!
     
@@ -30,11 +27,8 @@ class VerticalLandscapeViewController: UIViewController, UICollectionViewDataSou
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "verticalLandscapeCell", for: indexPath)
-        if let imageView = cell.contentView.viewWithTag(CollectionViewTags.CELL_IMAGE) as? UIImageView {
-            let imageName = self.landscapeItens[indexPath.item].image
-            imageView.image = UIImage( named: imageName)
-        }
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "verticalLandscapeCell", for: indexPath) as! LandscapeCollectionViewCell
+        cell.prepareCell(landscapeDTO: landscapeItens[indexPath.item])
         return cell
     }
     
