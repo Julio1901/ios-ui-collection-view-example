@@ -9,7 +9,6 @@ import UIKit
 
 class VerticalLandscapeViewController: UIViewController, UICollectionViewDataSource {
     
-    
     @IBOutlet weak var collectionView: UICollectionView!
     
     let landscapeModel = LandscapeModel()
