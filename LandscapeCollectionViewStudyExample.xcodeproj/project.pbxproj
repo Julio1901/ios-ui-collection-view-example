@@ -16,6 +16,8 @@
 		F474A3F92BD761AB00B3AC01 /* LandscapeCollectionViewStudyExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F474A3F82BD761AB00B3AC01 /* LandscapeCollectionViewStudyExampleTests.swift */; };
 		F474A4032BD761AB00B3AC01 /* LandscapeCollectionViewStudyExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F474A4022BD761AB00B3AC01 /* LandscapeCollectionViewStudyExampleUITests.swift */; };
 		F474A4052BD761AB00B3AC01 /* LandscapeCollectionViewStudyExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F474A4042BD761AB00B3AC01 /* LandscapeCollectionViewStudyExampleUITestsLaunchTests.swift */; };
+		F474A4122BD763A800B3AC01 /* VerticalLandscape.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F474A4112BD763A800B3AC01 /* VerticalLandscape.storyboard */; };
+		F474A4142BD765C000B3AC01 /* VerticalLandscapeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F474A4132BD765C000B3AC01 /* VerticalLandscapeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		F474A3FE2BD761AB00B3AC01 /* LandscapeCollectionViewStudyExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LandscapeCollectionViewStudyExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F474A4022BD761AB00B3AC01 /* LandscapeCollectionViewStudyExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandscapeCollectionViewStudyExampleUITests.swift; sourceTree = "<group>"; };
 		F474A4042BD761AB00B3AC01 /* LandscapeCollectionViewStudyExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandscapeCollectionViewStudyExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F474A4112BD763A800B3AC01 /* VerticalLandscape.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = VerticalLandscape.storyboard; sourceTree = "<group>"; };
+		F474A4132BD765C000B3AC01 /* VerticalLandscapeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalLandscapeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +105,13 @@
 			children = (
 				F474A3E12BD761A800B3AC01 /* AppDelegate.swift */,
 				F474A3E32BD761A800B3AC01 /* SceneDelegate.swift */,
+				F474A4132BD765C000B3AC01 /* VerticalLandscapeViewController.swift */,
 				F474A3E52BD761A800B3AC01 /* ViewController.swift */,
 				F474A3E72BD761A800B3AC01 /* Main.storyboard */,
 				F474A3EA2BD761AA00B3AC01 /* Assets.xcassets */,
 				F474A3EC2BD761AA00B3AC01 /* LaunchScreen.storyboard */,
 				F474A3EF2BD761AA00B3AC01 /* Info.plist */,
+				F474A4112BD763A800B3AC01 /* VerticalLandscape.storyboard */,
 			);
 			path = LandscapeCollectionViewStudyExample;
 			sourceTree = "<group>";
@@ -231,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F474A4122BD763A800B3AC01 /* VerticalLandscape.storyboard in Resources */,
 				F474A3EB2BD761AA00B3AC01 /* Assets.xcassets in Resources */,
 				F474A3EE2BD761AA00B3AC01 /* Base in Resources */,
 				F474A3E92BD761A800B3AC01 /* Base in Resources */,
@@ -258,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F474A4142BD765C000B3AC01 /* VerticalLandscapeViewController.swift in Sources */,
 				F474A3E62BD761A800B3AC01 /* ViewController.swift in Sources */,
 				F474A3E22BD761A800B3AC01 /* AppDelegate.swift in Sources */,
 				F474A3E42BD761A800B3AC01 /* SceneDelegate.swift in Sources */,

@@ -9,6 +9,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    @IBAction func btnVerticalLandscapeAction(_ sender: Any) {
+       performSegue(withIdentifier: "goToVerticalLandscapeStoryboard", sender: self)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
