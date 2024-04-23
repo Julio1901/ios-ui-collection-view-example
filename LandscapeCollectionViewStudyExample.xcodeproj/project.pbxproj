@@ -18,6 +18,8 @@
 		F474A4052BD761AB00B3AC01 /* LandscapeCollectionViewStudyExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F474A4042BD761AB00B3AC01 /* LandscapeCollectionViewStudyExampleUITestsLaunchTests.swift */; };
 		F474A4122BD763A800B3AC01 /* VerticalLandscape.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F474A4112BD763A800B3AC01 /* VerticalLandscape.storyboard */; };
 		F474A4142BD765C000B3AC01 /* VerticalLandscapeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F474A4132BD765C000B3AC01 /* VerticalLandscapeViewController.swift */; };
+		F474A4172BD778BA00B3AC01 /* LandscapeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F474A4162BD778BA00B3AC01 /* LandscapeModel.swift */; };
+		F474A4192BD7792500B3AC01 /* LandscapeDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = F474A4182BD7792500B3AC01 /* LandscapeDTO.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		F474A4042BD761AB00B3AC01 /* LandscapeCollectionViewStudyExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandscapeCollectionViewStudyExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		F474A4112BD763A800B3AC01 /* VerticalLandscape.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = VerticalLandscape.storyboard; sourceTree = "<group>"; };
 		F474A4132BD765C000B3AC01 /* VerticalLandscapeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalLandscapeViewController.swift; sourceTree = "<group>"; };
+		F474A4162BD778BA00B3AC01 /* LandscapeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandscapeModel.swift; sourceTree = "<group>"; };
+		F474A4182BD7792500B3AC01 /* LandscapeDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandscapeDTO.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,15 +107,16 @@
 		F474A3E02BD761A800B3AC01 /* LandscapeCollectionViewStudyExample */ = {
 			isa = PBXGroup;
 			children = (
+				F474A4152BD778A700B3AC01 /* Model */,
 				F474A3E12BD761A800B3AC01 /* AppDelegate.swift */,
 				F474A3E32BD761A800B3AC01 /* SceneDelegate.swift */,
 				F474A4132BD765C000B3AC01 /* VerticalLandscapeViewController.swift */,
 				F474A3E52BD761A800B3AC01 /* ViewController.swift */,
 				F474A3E72BD761A800B3AC01 /* Main.storyboard */,
-				F474A3EA2BD761AA00B3AC01 /* Assets.xcassets */,
-				F474A3EC2BD761AA00B3AC01 /* LaunchScreen.storyboard */,
-				F474A3EF2BD761AA00B3AC01 /* Info.plist */,
 				F474A4112BD763A800B3AC01 /* VerticalLandscape.storyboard */,
+				F474A3EC2BD761AA00B3AC01 /* LaunchScreen.storyboard */,
+				F474A3EA2BD761AA00B3AC01 /* Assets.xcassets */,
+				F474A3EF2BD761AA00B3AC01 /* Info.plist */,
 			);
 			path = LandscapeCollectionViewStudyExample;
 			sourceTree = "<group>";
@@ -131,6 +136,15 @@
 				F474A4042BD761AB00B3AC01 /* LandscapeCollectionViewStudyExampleUITestsLaunchTests.swift */,
 			);
 			path = LandscapeCollectionViewStudyExampleUITests;
+			sourceTree = "<group>";
+		};
+		F474A4152BD778A700B3AC01 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F474A4162BD778BA00B3AC01 /* LandscapeModel.swift */,
+				F474A4182BD7792500B3AC01 /* LandscapeDTO.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,9 +280,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F474A4142BD765C000B3AC01 /* VerticalLandscapeViewController.swift in Sources */,
+				F474A4192BD7792500B3AC01 /* LandscapeDTO.swift in Sources */,
 				F474A3E62BD761A800B3AC01 /* ViewController.swift in Sources */,
 				F474A3E22BD761A800B3AC01 /* AppDelegate.swift in Sources */,
 				F474A3E42BD761A800B3AC01 /* SceneDelegate.swift in Sources */,
+				F474A4172BD778BA00B3AC01 /* LandscapeModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
